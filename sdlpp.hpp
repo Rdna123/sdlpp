@@ -27,7 +27,7 @@ SOFTWARE.
 // enable this if you want to use the higher-level SDL2_gfx features
 //#define USE_SDLGFX
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #ifdef USE_SDLGFX
 #include <SDL2_gfxPrimitives.h>
 #endif
